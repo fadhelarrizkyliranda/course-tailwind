@@ -1,5 +1,11 @@
+import HeroBanner from "../components/commons/molecules/HeroBanner";
+
 const HomePage = () => {
-  return <>ini home page</>;
+  return (
+    <>
+      <HeroBanner />
+    </>
+  );
 };
 
 export default HomePage;
